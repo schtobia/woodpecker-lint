@@ -27,7 +27,7 @@ repos:
   - id: trailing-whitespace
   - id: check-merge-conflict
 - repo: https://git.schmidl.dev/schtobia/woodpecker-lint
-  rev: v1.0.0
+  rev: 1.0.0
   hooks:
   - id: woodpecker-lint
 ...
