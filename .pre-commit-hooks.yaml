@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2023 Tobias Schmidl
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+---
+-   id: woodpecker-lint
+    name: Lint Woodpecker configs
+    description: This hook checks against woodpecker-ci lintdo
+    entry: docker.io/woodpeckerci/woodpecker-cli:latest
+    language: docker_image
+    args: [lint]
+    types: [yaml]
+    files: .woodpecker.y*
+...
