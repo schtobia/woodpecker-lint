@@ -32,3 +32,7 @@ repos:
   - id: woodpecker-lint
 ...
 ```
+
+## Alternative Repos
+
+The base URL for this repository is and will always be on [git.schmidl.dev](https://git.schmidl.dev/schtobia/woodpecker-lint). However, I've enabled a push mirror to [Github](https://github.com/schtobia/woodpecker-lint).
