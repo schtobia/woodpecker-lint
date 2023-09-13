@@ -16,6 +16,8 @@ This repository adheres to [SemVer](https://semver.org/lang/de/) and [Keep a Cha
 
 Simple, add the second option to your `.pre-commit-config.yaml`.
 
+<!-- editorconfig-checker-disable -->
+
 ```yaml
 ---
 repos:
@@ -32,6 +34,7 @@ repos:
   - id: woodpecker-lint
 ...
 ```
+<!--// editorconfig-checker-enable -->
 
 ## Alternative Repos
 
