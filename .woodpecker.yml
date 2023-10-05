@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2023 Tobias Schmidl
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+---
+steps:
+
+  editor-config:
+    image: mstruebing/editorconfig-checker
+    group: lint
+
+  reuse:
+    image: fsfe/reuse:latest
+    group: lint
+
+...
